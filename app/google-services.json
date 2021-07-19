@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1092886778178",
+    "project_id": "doctor-a7eaf",
+    "storage_bucket": "doctor-a7eaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092886778178:android:f64c007fc6331b8e5378db",
+        "android_client_info": {
+          "package_name": "com.sebeelaapp.doctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092886778178-a1bgjldm796vnjpnciha14eb6shbpuji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2VSPtim6FOvvqJG8aw_5iVReIG0zoAg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092886778178-a1bgjldm796vnjpnciha14eb6shbpuji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

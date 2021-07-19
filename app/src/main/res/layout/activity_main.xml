@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ph"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="DR SEBEELA PHAMACY APPOINMENT "
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/teal_700"
+            android:textSize="23sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="PATIENT DETAILS"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp">
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/namein"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+
+                    android:hint="name"
+                    android:inputType="text"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Surname"
+                android:textStyle="bold"
+                android:textSize="20dp">>
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/surnamein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/surnameout"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:hint="surname"
+
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Email"
+                android:textStyle="bold"
+                android:textSize="20dp">>
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:id="@+id/emailin"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp">
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/emailout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Date"
+                android:textStyle="bold"
+                android:textSize="20dp">>
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:id="@+id/datein"
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/dateout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="date"
+                    android:inputType="datetime"
+                    android:maxLines="1" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Address"
+                android:textStyle="bold"
+                android:textSize="20dp">>
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/addressin"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp">
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/addressout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="address"
+                    android:inputType="text"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Contacts"
+                android:textStyle="bold"
+                android:textSize="20dp">>
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/contactsin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp">
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/contactsout"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:hint="contacts"
+                    android:inputType="phone"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Gender"
+                android:textStyle="bold"
+                android:textSize="20dp">>
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/genderin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp">
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/genderout"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:hint="gender"
+                    android:inputType="text"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <!-- "Add buttons" section starts here. -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp">
+
+            <com.google.android.material.button.MaterialButton
+
+                android:id="@+id/adding"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:padding="4dp"
+                android:text="ADD"
+
+                app:cornerRadius="40dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
